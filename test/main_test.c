@@ -9,7 +9,7 @@
  * Return: The return value of the last executed command.
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv, char **env)
 {
 
 	int ret = 0, retn;
